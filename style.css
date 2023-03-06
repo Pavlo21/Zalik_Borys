@@ -1,0 +1,152 @@
+body{
+    background-color: #ffffff;
+}
+* {
+    box-sizing: border-box;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*Фіолетова частина*/
+.intro{
+     float: left;
+    width: 67%;
+    height: 500px;
+    margin: 10px 5px 5px 10px;
+}
+/*Перше фото*/
+.size-img1{
+    padding-left: 15px;
+    font-size: 18px;
+    display: flex;
+    justify-content: end;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+/*Друге фото*/
+.size-img2{
+    display: flex;
+    justify-content: start;
+    margin-left: 10px;
+    padding-right: 15px;
+    padding-top: 3px;
+    font-size: 18px;
+}
+/*Третє фото*/
+.size-img3{
+    padding-top: 3px;
+    padding-left: 15px;
+    font-size: 18px;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.img{
+    width: 300px;
+    height: 160px;
+  }
+/*Жовта частина*/
+.intro1{
+    cursor: nw-resize;
+    float: left;
+    width: 30.95%;
+    height: 500px;
+    margin: 10px 10px 5px 5px;
+}
+.intro1-text{
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+.in1-text{
+    color: #ff0000;
+    font-family: Tahoma;
+    font-size: 18px;
+}
+.in1-text2{
+    display: block;
+    color: #ff0000;
+    font-family: Tahoma;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+/*Назва дисципліни*/
+.in1-text1{
+    display: block;
+    color: #00ffaa;
+    font-family: Tahoma;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+/*Список лабораторних*/
+.intro1-text1{
+    display: block;
+    text-align: left;
+}
+.in1_text1{
+    display: block;
+    color: #ffee04;
+    font-family: Tahoma;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.in1_text2{
+    display: block;
+    color: #0055bb;
+    font-family: Tahoma;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+/*Кінець сайту*/
+.footer{
+    background-color: #212042;
+    height: 220px;
+    margin: 5px 10px 10px 10px;
+}
+.footer-img{
+    float: left;
+    width: 33.33%;
+    margin-left: 80px;
+    margin-top: 75px;
+}
+.footer__1{
+    float: left;
+    width: 33.33%;
+}
+.text2{
+    text-decoration: underline;
+    display: block;
+    padding-left: 200px;
+    padding-top: 180px;
+    color: #fff;
+    font-family: Tahoma;
+    font-size: 18px;
+}
+.footer__2{
+    display: block;
+    margin-top: 65px;
+    float: left;
+    width: 33.33%;
+}
+.text1{
+    text-decoration: underline;
+    display: block;
+    padding-top: 7px;
+    padding-left: 210px;
+    color: #fff;
+    font-family: Tahoma;
+    font-size: 18px;
+    text-align: center;
+}
